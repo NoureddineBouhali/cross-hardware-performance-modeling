@@ -16,6 +16,7 @@ import torchvision.transforms as transforms
 import torch_tensorrt as torchtrt
 import time
 import numpy as np
+
 testing_dataset = torchvision.datasets.CIFAR10(
     root="./data",
     train=False,

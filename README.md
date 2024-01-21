@@ -1,5 +1,6 @@
 # cross-hardware-performance-modeling
 The investigation of different signature set selection methodologies on the Nas-Bench-201. The signature set represents the hardware features in a cross hardware.
+
 # Deep learning model quantization using Tensorflow and Pytorch
 An example is presented using both deep learning frameworks applied to predefined models from either keras or torchvision model zoos.
 ## Deep learning quantization
@@ -12,5 +13,6 @@ Pytorch offers compatibility with NVIDIA's TensorRT for model compression.
 Models are compressed after full training on datasets using post training quntization. 
 ## Quantization aware training
 Models are trained with inner _quantization/dequantization_ operations throughtout training epochs to adapt to information loss from lower precision formats of weights and/or activations.
+
 
 

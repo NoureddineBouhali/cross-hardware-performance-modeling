@@ -8,6 +8,7 @@ from tensorflow.keras.layers import BatchNormalization, Input
 import time
 from tensorflow import keras
 import tensorflow as tf
+
 ###############" Loading MNist"
 (x_train, y_train), (x_test, y_test) = keras.datasets.cifar10.load_data()
 assert x_train.shape == (50000, 32, 32, 3)
