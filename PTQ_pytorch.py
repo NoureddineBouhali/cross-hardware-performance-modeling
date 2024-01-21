@@ -8,7 +8,6 @@
 !pip install tensorrt
 !export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/python3.10/dist-packages/tensorrt
 !pip install torch_tensorrt'''
-
 from torchvision.io import read_image
 from torchvision.models import vgg16
 from torchsummary import summary
