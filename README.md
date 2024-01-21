@@ -11,6 +11,6 @@ Pytorch offers compatibility with NVIDIA's TensorRT for model compression.
 ## Post training quantization
 Models are compressed after full training on datasets using post training quntization. 
 ## Quantization aware training
-Models are training with inner _quantization/dequantization_ operations throughtout training epochs to adapt to information loss from lower precision formats of weights and/or activations.
+Models are trained with inner _quantization/dequantization_ operations throughtout training epochs to adapt to information loss from lower precision formats of weights and/or activations.
 
 
